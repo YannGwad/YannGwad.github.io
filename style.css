@@ -14,18 +14,26 @@ body {
     width: 9em }
   h1 {
     font-family: Helvetica, Geneva, Arial,
-          SunSans-Regular, sans-serif }
+          SunSans-Regular, sans-serif; color: #de7471 }
+  h2 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif; color: #de7471 }        
+  p{
+    font-size: 20px;
+    text-align: left;
+    font-family: Helvetica, sans-serif; color: black
+    }        
   ul.navbar li {
     background: #de7471;
     margin: 0.5em 0;
     padding: 0.3em;
-    border-right: 1em solid black }
+    border-right: 1em solid #de7471 }
   ul.navbar a {
     text-decoration: none }
   a:link {
-    color: blue }
+    color: rgb(255, 230, 0) }
   a:visited {
-    color: purple }
+    color: rgb(255, 230, 0) }
   address {
     margin-top: 1em;
     padding-top: 1em;
